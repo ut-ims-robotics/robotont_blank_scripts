@@ -9,7 +9,6 @@ project(robotont_blank_scripts)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
-  robotont
   robotont_description
   robotont_driver
   robotont_sensors
