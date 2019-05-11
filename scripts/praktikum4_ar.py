@@ -87,7 +87,7 @@ def callback(data):
 
 def timer_callback(event):
     global last_heartbeat
-    if (rospy.get_time() - last_heartbeat) >= 0.1:
+    if (rospy.get_time() - last_heartbeat) >= 0.3:
         cmd_vel_pub.publish(Twist())
 
 
